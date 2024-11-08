@@ -29,11 +29,7 @@ class LineTestController extends Controller
         // 獲取請求內容
         $httpRequestBody = file_get_contents('php://input');
 
-        // 檢查是否為來自Line
-        $signature = base64_encode(hash_hmac('sha256', $httpRequestBody, $this->channelSecret, true));
-        if ($signature != $_SERVER['HTTP_X_LINE_SIGNATURE']) {
-            exit;
-        }
+
 
         $userRequest = json_decode($httpRequestBody, true);
 
