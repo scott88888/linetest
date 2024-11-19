@@ -9,8 +9,10 @@ use Carbon\Carbon;
 class LineTestController extends Controller
 {
 
-    private $channelSecret = 'b444c771d366e34a99e32b1b188881be';
-    private $channelAccessToken = 'wcpKz9lUUnYU/6JokWADLr1T3oHviFhDCqHhtP/S6M9Xr/646L+Difno48Ne0EY1jX3rGRbsQFf3IrontTyJZLYFKoDyifIC3sIJDGENbNPi6Py656EEmrNBqei+sjqORw1Q8gZQh4SExbdBeyEu3AdB04t89/1O/w1cDnyilFU=';
+    // private $channelSecret = 'b444c771d366e34a99e32b1b188881be';
+    // private $channelAccessToken = 'wcpKz9lUUnYU/6JokWADLr1T3oHviFhDCqHhtP/S6M9Xr/646L+Difno48Ne0EY1jX3rGRbsQFf3IrontTyJZLYFKoDyifIC3sIJDGENbNPi6Py656EEmrNBqei+sjqORw1Q8gZQh4SExbdBeyEu3AdB04t89/1O/w1cDnyilFU=';
+    private $channelSecret = '0ae85dd82a38c57730d5b6b6d8a77752';
+    private $channelAccessToken = 'mWxt76XBmn49LyKrny9x3swvE+llc3eoqlILbaI52BA9hrPBg/Kgg1ntTQ94i+kynCYZOISdgPXxsm0YtZwmktYZHXSS+fRDRmeomvqTeT0WR8GvQzlYv9Xjo4uJ7y8PT6PmgU50X6RRbknt2H3VJgdB04t89/1O/w1cDnyilFU=';
 
     public function index()
     {
